@@ -1,0 +1,11 @@
+from lycee import*
+x = demande ("nombre?")
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(325, 2*np.pi,50)
+y = np.sin(x)
+plt.plot(x,y, "go-")
+plt.xlabel("Angle x (rad)")
+plt.ylabel("Sinus(x)")
+plt.title("Fonction y=sin(x)")
+plt.show()
